@@ -81,7 +81,7 @@ new Vue({
   template: '<App/>'
 })
 ```
-Tornando possível chamar qualquer componente (baseado em sem atributo name) em qualquer arquivo Vue:
+Tornando possível chamar qualquer componente (baseado em seu atributo name) em qualquer arquivo Vue:
 ```
 <template>
   <div id="app">
