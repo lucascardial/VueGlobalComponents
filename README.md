@@ -45,7 +45,7 @@ export { default as btnSuccess } from './btnSuccess.vue'
 Agora basta criar um `index.js` no diretório `components`, para registrar todos os componentes desejados. Este arquivo registrará e exportará todos os componentes importados e declarados no `array components`
 
 ```
-import { btnPrimary, btnSuccess } from './Buttons'
+import { btnPrimary, btnSuccess } from './buttons'
 
 const components = [
   btnPrimary,
