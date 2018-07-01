@@ -65,7 +65,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default install
 ```
 ### Finalmente
-Por fim, basta importar o arquivo ` import MyComponents from './components/'` no `main.js`, e adicioná-lo ao escodo do vue com: `Vue.use(MyComponents)`
+Por fim, basta importar o arquivo ` import MyComponents from './components/'` no `main.js`, e adicioná-lo ao escopo do vue com: `Vue.use(MyComponents)`
 
 ```
 import Vue from 'vue'
