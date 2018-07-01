@@ -36,7 +36,7 @@ export default {
 }
 </script>
 ```
-No mesmo diretório, defini um `index.js` apenas para seguir o padrão Re-exporting do ES6
+No mesmo diretório, defini um `index.js` apenas para seguir o [padrão Re-exporting](http://exploringjs.com/es6/ch_modules.html#_re-exporting) do ES6
 ```
 export { default as btnPrimary } from './btnPrimary.vue'
 export { default as btnSuccess } from './btnSuccess.vue'
